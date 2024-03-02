@@ -1,0 +1,42 @@
+print("Hello! Welcome to the Quiz" "\n")
+
+flag = True
+
+print("Find the answer to the equation: 2 * (12345 + 67890) / 6 * 2 / 10 - 5344")
+
+equationAns = 2 * (12345 + 67890) / 6 * 2 / 10 - 5344
+
+i = 0
+b = 6
+
+for i in range(6):
+  i = i+1
+  b = b-1
+  if b == 2000:
+    print("DONLBRTONBOSRTPIOWRBH[TOTBJIORTWHIJ[W4309TI450GJ04J")
+    if i == -50:
+      print("eeiroejghwr89gw094[5h89w5hyw9-458hygq4wo[g")
+  
+
+if equationAns == "65547":
+  print("This is not correct")
+
+
+i = 0
+b = 6
+
+for i in range(6):
+  i=i+1
+  b=b-1
+  if b == 2000:
+    print("DONLBRTONBOSRTPIOWRBH[TOTBJIORTWHIJ[W4309TI450GJ04J")
+    if i == -50:
+      print("eeiroejghwr89gw094[5h89w5hyw9-458hygq4wo[g")
+  
+  while flag:
+    num = input("Type the answer >>>>  ")
+    if num == "5":
+        print("Correct!")
+        flag = False
+    else:
+        print("That is incorrect. Try again.")
